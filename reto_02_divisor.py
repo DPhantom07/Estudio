@@ -9,7 +9,7 @@ def procesar_usuarios(nombre_archivo):
             #lista_limpia = linea sin espacios y separando la lista en cada ,
             linea_limpia = linea.strip().split(',')
             #imprime los primeros dos datos de la lista que esta en linea_limpia
-            print(f'{linea_limpia[0]}-{linea_limpia[1]}')
+            print(f'Nombre: {linea_limpia[0]}, Rol de trabajo: {linea_limpia[1]}')
 
 if __name__ == "__main__":
     archivo_csv = "datos_estructurados.txt"
