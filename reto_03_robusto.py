@@ -10,7 +10,7 @@ def leer_lineas(nombre_archivo):
         #intero sobre las lineas
         for linea in archivo:
             #si en linea encuentro ','
-            if "," in linea:
+            if "," in linea and len(linea.split(',')) >=2 :
                 linea_limpia = linea.strip().split(',')
                 print(f'Usuario {linea_limpia[0]} | Rol {linea_limpia[1]}')
             else:
