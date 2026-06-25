@@ -1,0 +1,5 @@
+Danny,Developer,2
+Daniel, Data Energiner,4
+LineaInvalidaSinComas
+Gamer,Tester,1
+Santi,Developer,5
