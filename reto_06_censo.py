@@ -8,7 +8,8 @@ def leer_documento(documento):
                 if linea_limpia[1] not in roles:
                     #si la clave no esta configurada
                     roles[linea_limpia[1]] = 1
-                roles[linea_limpia[1]] += 1
+                else:
+                    roles[linea_limpia[1]] += 1
     for rol, cantidad in roles.items():
         print(f'{rol} {cantidad}')
 documento = "datos_censo.txt"
