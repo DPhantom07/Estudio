@@ -10,12 +10,6 @@ def leer_documento(documento):
                 linea_limpia = linea.strip().split(',')
                 contador_horas += int(linea_limpia[2])
     print(f'Total de horas: {contador_horas}')
-
-                
-            
-       
-
     
-
 documento = "datos_proyectos.txt"
 leer_documento(documento)
