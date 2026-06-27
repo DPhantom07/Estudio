@@ -21,10 +21,9 @@ def crear_documento(informacion_limpia):
         archivo.write(f"Reporte Oficial de Roles:\n")
         # Iterar en el diccionario para imprimir   
         for rol, cantidad in informacion_limpia.items():
-            archivo.write(f'{rol} -> {cantidad}')
+            archivo.write(f'{rol} -> {cantidad}\n')
             
     
 
 documento = "datos_censo.txt"
-leer_documento(documento)
-crear_documento(leer_documento)
+crear_documento(leer_documento(documento))
