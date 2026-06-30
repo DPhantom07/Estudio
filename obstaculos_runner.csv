@@ -1,0 +1,6 @@
+obstaculo,velocidad_base,frecuencia_spawn
+caja_madera,150,alta
+pico_suelo,0,media
+ave_fuego,250,baja
+muro_hielo,100,media
+misil_rastreador,300,muy_baja
