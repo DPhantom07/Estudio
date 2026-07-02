@@ -1,0 +1,4 @@
+Danny,Developer,2
+Daniel,DataEngineer,4
+LineaInvalidaSinComasNiRoles
+Gamer,Tester,1
